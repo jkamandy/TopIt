@@ -1,0 +1,35 @@
+/* ---- FONT STYLES ---- */
+.homeText {
+    font-size: 100px;
+    color: white;
+    font-weight: 700;
+}
+
+.homeTextRedU {
+    font-size: 100px;
+    color: #F46969;
+    text-decoration: underline;
+    font-weight: 700;
+}
+/* ---------------------- */
+
+
+.contactUsContainer {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.contactUsTextContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #141414;
+    align-items: center;
+    /* justify-content: center; */
+    height: 40vh;
+    width: 94vw;
+    border-radius: 30px;
+}

@@ -1,0 +1,42 @@
+.background {
+    background-color: black;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.phoneEmailContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    column-gap: 5vw;
+}
+
+.phoneContainer {
+    display: flex;
+    align-items: center;
+    column-gap: 1vw;
+}
+
+/* ---- FONT STYLES ---- */
+.contactText {
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+}
+
+.contactTextRedU {
+    font-size: 40px;
+    color: #F46969;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+/* ---- BORDERS ---- */
+.redBorder {
+    height: 0.3vh;
+    background-color: #F46969;
+    width: 100vw;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
