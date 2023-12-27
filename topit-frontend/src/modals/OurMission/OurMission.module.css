@@ -1,0 +1,62 @@
+/* ---- FONT STYLES ---- */
+.homeText {
+    font-size: 100px;
+    color: white;
+    font-weight: 700;
+}
+
+.homeTextRedU {
+    font-size: 100px;
+    color: #F46969;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.subHeading {
+    font-size: 60px;
+    color: white;
+    font-weight: 500;
+}
+
+.subHeadingRedU {
+    font-size: 60px;
+    color: white;
+    font-weight: 500;
+    color: #F46969;
+    text-decoration: underline;
+}
+
+.body {
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+}
+
+.bodyRedU{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    color: #F46969;
+    text-decoration: underline;
+}
+/* ---------------------- */
+
+
+.ourMissionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 42vh;
+}
+
+.ourMissionTextContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #141414;
+    align-items: center;
+    /* justify-content: center; */
+    height: 37vh;
+    width: 94vw;
+    border-radius: 30px;
+}

@@ -1,0 +1,70 @@
+/* ---- FONT STYLES ---- */
+.homeText {
+    font-size: 100px;
+    color: white;
+    font-weight: 700;
+}
+
+.homeTextRedU {
+    font-size: 100px;
+    color: #F46969;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.subHeading {
+    font-size: 60px;
+    color: white;
+    font-weight: 500;
+}
+
+.subHeadingRedU {
+    font-size: 60px;
+    color: white;
+    font-weight: 500;
+    color: #F46969;
+    text-decoration: underline;
+}
+
+.body {
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+}
+
+.bodyRedU{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    color: #F46969;
+    text-decoration: underline;
+}
+/* ---------------------- */
+
+
+.trustedServiceContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.trustedServiceTextContainer {
+    display: flex;
+    /* flex-direction: column; */
+    /* background-color: #141414; */
+    column-gap: 2VW;
+    align-items: center;
+    justify-content: center;
+    height: 35vh;
+    width: 94vw;
+    border-radius: 30px;
+}
+
+.service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.5vw;
+}

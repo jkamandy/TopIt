@@ -1,0 +1,47 @@
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    height: 25vh;
+    background-color: #141414;
+}
+
+.socialContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35vw;
+    margin-left: 3vw;
+    margin-top: 3vh;
+}
+
+.socialContainerInner {
+    display: flex;
+    flex-direction: column;
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---- FONT STYLES ---- */
+.homeText {
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+}
+
+.homeTextRedU {
+    font-size: 30px;
+    color: #F46969;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.footerPrivacy {
+    font-size: 16px;
+    color: white;
+    opacity: 40%;
+}
+

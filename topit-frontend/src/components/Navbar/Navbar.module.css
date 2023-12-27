@@ -1,0 +1,52 @@
+/* 
+    COLORS:
+    DARK_GRAY: #0F0F0F
+    CORAL_RED: #F46969
+    GRAY_BOX: #141414
+*/
+
+.topnav {
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.navButtonContainer {
+    display: flex;
+}
+
+.navLogoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarLogo {
+    height: 17vh;
+}
+
+.navLinksContainer {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    height: 20vh;
+    right: 100px;
+    column-gap: 2vw;
+}
+
+
+.pageLink {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.pageLink:hover {
+    color: #F46969;
+    text-decoration: underline;
+}
+

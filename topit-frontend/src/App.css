@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oxanium:wght@500&family=Pacifico&display=swap');
+
+/* ---- BORDERS ---- */
+.redBorder {
+    height: 1vh;
+    background-color: #F46969;
+    width: 100vw;
+}

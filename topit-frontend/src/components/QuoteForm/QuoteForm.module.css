@@ -1,0 +1,74 @@
+.background {
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.quoteFormContainer {
+    display: flex;
+    height: 70vh;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+    background-color: #141414;
+    border-radius: 30px;
+}
+
+.textArea-0-2-16-rfc-input {
+    min-height: 40px;
+    font-size: 20px !important;
+}
+
+.formControl-0-2-18 .rfc-input {
+    font-size: 20px !important;
+}
+
+/* .inputContainer {
+    display: flex;
+    height: 10vh;
+} */
+
+/* ---- FONT STYLES ---- */
+.homeText {
+    font-size: 100px;
+    color: white;
+    font-weight: 700;
+}
+
+.homeTextRedU {
+    font-size: 100px;
+    color: #F46969;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.subHeading {
+    font-size: 60px;
+    color: white;
+    font-weight: 500;
+}
+
+.subHeadingRedU {
+    font-size: 60px;
+    color: white;
+    font-weight: 500;
+    color: #F46969;
+    text-decoration: underline;
+}
+
+.body {
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+}
+
+.bodyRedU{
+    font-size: 30px !important;
+    /* color: white; */
+    font-weight: 400;
+    color: #F46969;
+    text-decoration: underline;
+}
+
+/* ---------------------- */

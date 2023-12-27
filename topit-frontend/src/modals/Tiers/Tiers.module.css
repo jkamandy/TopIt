@@ -1,0 +1,92 @@
+/* ---- FONT STYLES ---- */
+.homeText {
+    font-size: 100px;
+    color: white;
+    font-weight: 700;
+    opacity:'85%'
+}
+
+.homeTextRedU {
+    font-size: 100px;
+    color: #F46969;
+    text-decoration: underline;
+    font-weight: 700;
+}
+.subHeading {
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    opacity:'85%'
+}
+
+.subHeadingRedU {
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    color: #F46969;
+    text-decoration: underline;
+}
+
+.body {
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    opacity:'85%'
+}
+
+.bodyRedU{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    color: #F46969;
+    text-decoration: underline;
+}
+/* ---------------------- */
+
+
+.tiersContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+}
+
+.tiersTextContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #141414;
+    align-items: center;
+    /* justify-content: center; */
+    height: 30vh;
+    width: 94vw;
+    border-radius: 30px;
+}
+
+.individualTiersContainer {
+    display: flex;
+    column-gap: 1vw;
+    justify-content: center;
+    align-items: center;
+    /* height: ; */
+}
+
+.tierContainer {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #141414;
+    height: 70vh;
+    width: 30vw;
+    border-radius: 30px;
+}
+
+.pricingContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    width: 26vw;
+}
