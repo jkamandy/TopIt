@@ -1,0 +1,8 @@
+# quotes/urls.py
+
+from django.urls import path
+from .views import submit_form
+
+urlpatterns = [
+    path('submitForm/', submit_form, name='submit_form'),
+]
