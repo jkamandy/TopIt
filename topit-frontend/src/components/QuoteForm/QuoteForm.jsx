@@ -18,7 +18,8 @@ function QuoteForm() {
         comments: ''
     }
 
-    const [formData, setFormData] = useState(intialFormData)
+    const [formData, setFormData] = useState(intialFormData);
+
 
     const handleInputChange = (name, value) => {
         setFormData(prevFormData => ({
@@ -41,6 +42,7 @@ function QuoteForm() {
                 alert("Form submitted successfully!")
                 setFormData(intialFormData)
                 console.log('Form submitted successfully!');
+                window.location.reload(); // reload current page to rest form 
             } else {
             console.error('Error submitting form:', response.data);
             }
