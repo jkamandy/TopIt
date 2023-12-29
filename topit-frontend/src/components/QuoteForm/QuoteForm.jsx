@@ -11,28 +11,36 @@ import Form, {
 } from 'react-form-component'
 
 function QuoteForm() {
-    const [formData, setFormData] = useState({
+    const intialFormData = {
         name: '',
         email: '',
         phoneNumber: '',
         comments: ''
-    });
+    }
+
+    const [formData, setFormData] = useState(intialFormData)
 
     const handleInputChange = (name, value) => {
-        setFormData({
-          ...formData,
+        setFormData(prevFormData => ({
+          ...prevFormData,
           [name]: value,
-        });
-      };
+        }));
+    };
 
     const handleSubmit = async () => {
         try {
             // Placeholder: Simulate making a POST request to a server
-            const response = await axios.post('/api/submitForm', formData);
+
+            console.log(formData)
+            const response = await axios.post('http://localhost:8000/api/submitForm/', formData);
+            // const response = await axios.post('http://localhost:8000/api/submitForm/', formData
+            
 
             // Check the response from the server
             if (response.status === 200) {
-            console.log('Form submitted successfully!');
+                alert("Form submitted successfully!")
+                setFormData(intialFormData)
+                console.log('Form submitted successfully!');
             } else {
             console.error('Error submitting form:', response.data);
             }
@@ -75,17 +83,19 @@ function QuoteForm() {
                         onChange={(value) => handleInputChange('phoneNumber', value)}
 
                     />
-                    <TextArea
+                    <textarea style={{width: '40vw', borderRadius:'5px', height:'14vh'}}
                         name='comment'
+                        className={styles.comment}
                         // label='User name'
                         placeholder='Comments'
-                        // className={styles.bodyRedU}
+                        // onChange={(value) => handleInputChange('comments', value)}
+                        onChange={(e) => handleInputChange('comments', e.target.value)}
+                        // value={formData.comments} 
                     />
                     <div style={{width:'40vw'}}>
                     <FormButton
                         onClick={handleSubmit}
                         style={{height: '6vh', width:'40vw', fontSize:'20px', borderWidth:'0px', borderRadius:'5px', color:'red'}}
-                        onChange={(value) => handleInputChange('comments', value)}
 
                         >Send</FormButton>
                     </div>

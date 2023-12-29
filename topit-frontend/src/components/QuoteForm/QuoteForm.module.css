@@ -26,6 +26,17 @@
     font-size: 20px !important;
 }
 
+.comment {
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.comment::placeholder {
+    font-size: 20px;
+    color: #c3d4e4;
+}
+
 /* .inputContainer {
     display: flex;
     height: 10vh;

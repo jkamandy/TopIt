@@ -3,6 +3,8 @@ from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.core.mail import send_mail
 from django.conf import settings
+import json
+
 
 
 from .models import QuoteForm
@@ -17,12 +19,13 @@ entry within QuoteForm model.
 @csrf_exempt
 def submit_form(request):
     if request.method == 'POST':
-        data = request.POST
+        # data = request.POST
+        data = json.loads(request.body.decode('utf-8')) # must decode request body since its a form
         print(data)
         new_quote = QuoteForm.objects.create(
             name=data.get('name', ''),
             email=data.get('email', ''),
-            phone=data.get('phone', ''),
+            phone=data.get('phoneNumber', ''),
             comments=data.get('comments', '')
         )
         new_quote.save()
