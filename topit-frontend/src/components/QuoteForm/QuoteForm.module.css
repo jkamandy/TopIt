@@ -7,6 +7,8 @@
 
 .quoteFormContainer {
     display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
     height: 70vh;
     width: 50vw;
     justify-content: center;
@@ -22,6 +24,17 @@
 
 .formControl-0-2-18 .rfc-input {
     font-size: 20px !important;
+}
+
+.comment {
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.comment::placeholder {
+    font-size: 20px;
+    color: #c3d4e4;
 }
 
 /* .inputContainer {
@@ -44,15 +57,15 @@
 }
 
 .subHeading {
-    font-size: 60px;
+    font-size: 40px;
     color: white;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .subHeadingRedU {
-    font-size: 60px;
+    font-size: 40px;
     color: white;
-    font-weight: 500;
+    font-weight: 700;
     color: #F46969;
     text-decoration: underline;
 }
