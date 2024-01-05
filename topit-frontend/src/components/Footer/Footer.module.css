@@ -27,20 +27,20 @@
 
 /* ---- FONT STYLES ---- */
 .homeText {
-    font-size: 30px;
+    font-size: 24px;
     color: white;
     font-weight: 700;
 }
 
 .homeTextRedU {
-    font-size: 30px;
+    font-size: 24px;
     color: #F46969;
     text-decoration: underline;
     font-weight: 700;
 }
 
 .footerPrivacy {
-    font-size: 16px;
+    font-size: 12px;
     color: white;
     opacity: 40%;
 }
