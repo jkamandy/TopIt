@@ -10,6 +10,7 @@ import json
 from .models import QuoteForm
 
 
+
 '''
 Handles POST requests made to server, intializes and creates a new 
 entry within QuoteForm model.
@@ -78,6 +79,7 @@ def get_posted_data(request):
     try:
         # Fetch the data based on the ID or any other criteria
         data = QuoteForm.objects.latest('created_at')
+        
 
         # Serialize the data or extract relevant fields
         serialized_data = {
