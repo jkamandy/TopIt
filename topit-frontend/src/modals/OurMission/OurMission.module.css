@@ -1,25 +1,25 @@
 /* ---- FONT STYLES ---- */
 .homeText {
-    font-size: 90px;
+    font-size: 4vw;
     color: white;
     font-weight: 700;
 }
 
 .homeTextRedU {
-    font-size: 90px;
+    font-size: 4vw;
     color: #F46969;
     text-decoration: underline;
     font-weight: 700;
 }
 
 .subHeading {
-    font-size: 50px;
+    font-size: 2vw;
     color: white;
     font-weight: 500;
 }
 
 .subHeadingRedU {
-    font-size: 50px;
+    font-size: 2vw;
     color: white;
     font-weight: 500;
     color: #F46969;
@@ -27,13 +27,13 @@
 }
 
 .body {
-    font-size: 13px;
+    font-size: 1vw;
     color: white;
     font-weight: 400;
 }
 
 .bodyRedU{
-    font-size: 13px;
+    font-size: 1vw;
     color: white;
     font-weight: 400;
     color: #F46969;
