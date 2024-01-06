@@ -43,11 +43,12 @@
 
 
 .ourMissionContainer {
+    margin-top: 2vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 42vh;
+    /* height: 42vh; */
 }
 
 .ourMissionTextContainer {
@@ -56,7 +57,7 @@
     background-color: #141414;
     align-items: center;
     /* justify-content: center; */
-    height: 37vh;
+    /* height: 37vh; */
     width: 94vw;
     border-radius: 30px;
 }
