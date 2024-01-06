@@ -52,13 +52,13 @@
 
 /* ---- FONT STYLES ---- */
 .homeText {
-    font-size: 100px;
+    font-size: 90px;
     color: white;
     font-weight: 700;
 }
 
 .homeTextRedU {
-    font-size: 100px;
+    font-size: 90px;
     color: #F46969;
     text-decoration: underline;
     font-weight: 700;
