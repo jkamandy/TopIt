@@ -10,7 +10,7 @@ function TrustedService() {
 
     const trustedServiceCheckIconStyles = {
         color: '#F46969',
-        fontSize: '4vw',
+        fontSize: '80px',
       };
 
     return (
@@ -18,19 +18,19 @@ function TrustedService() {
             <div className={styles.trustedServiceTextContainer}>
                 <div className={styles.service}>
                     <FontAwesomeIcon icon={faCheck} style={trustedServiceCheckIconStyles}/>
-                    <span className={styles.subHeading} style={{fontSize:'2vw', fontWeight: '600'}}>TRUSTED SERVICE</span>
+                    <span className={styles.subHeading} style={{fontSize:'30px', fontWeight: '600'}}>TRUSTED SERVICE</span>
                 </div>
                 <div className={styles.service}>
                     <FontAwesomeIcon icon={faCheck} style={trustedServiceCheckIconStyles}/>
-                    <span className={styles.subHeading} style={{fontSize:'2vw', fontWeight: '600'}}>RELIABLE</span>
+                    <span className={styles.subHeading} style={{fontSize:'30px', fontWeight: '600'}}>RELIABLE</span>
                 </div>
                 <div className={styles.service}>
                     <FontAwesomeIcon icon={faCheck} style={trustedServiceCheckIconStyles}/>
-                    <span className={styles.subHeading} style={{fontSize:'2vw', fontWeight: '600'}}>PROFESSIONAL</span>
+                    <span className={styles.subHeading} style={{fontSize:'30px', fontWeight: '600'}}>PROFESSIONAL</span>
                 </div>
                 <div className={styles.service}>
                     <FontAwesomeIcon icon={faCheck} style={trustedServiceCheckIconStyles}/>
-                    <span className={styles.subHeading} style={{fontSize:'2vw', fontWeight: '600'}}>SATISFACTION GUARANTEE</span>
+                    <span className={styles.subHeading} style={{fontSize:'30px', fontWeight: '600'}}>SATISFACTION GUARANTEE</span>
                 </div>
             </div>
         </div>
