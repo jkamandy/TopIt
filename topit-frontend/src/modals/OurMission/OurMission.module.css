@@ -1,12 +1,12 @@
 /* ---- FONT STYLES ---- */
 .homeText {
-    font-size: 5vw;
+    font-size: 80px;
     color: white;
     font-weight: 700;
 }
 
 .homeTextRedU {
-    font-size: 5vw;
+    font-size: 80px;
     color: #F46969;
     text-decoration: underline;
     font-weight: 700;
