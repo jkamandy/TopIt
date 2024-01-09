@@ -1,12 +1,12 @@
 /* ---- FONT STYLES ---- */
 .homeText {
-    font-size: 100px;
+    font-size: 80px;
     color: white;
     font-weight: 700;
 }
 
 .homeTextRedU {
-    font-size: 100px;
+    font-size: 80px;
     color: #F46969;
     text-decoration: underline;
     font-weight: 700;
@@ -20,7 +20,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 40vh;
+    /* height: 40vh; */
 }
 
 .contactUsTextContainer {
@@ -29,7 +29,7 @@
     background-color: #141414;
     align-items: center;
     /* justify-content: center; */
-    height: 40vh;
+    /* height: 40vh; */
     width: 94vw;
     border-radius: 30px;
 }
