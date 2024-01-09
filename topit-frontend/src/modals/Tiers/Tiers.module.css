@@ -87,6 +87,6 @@
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    height: 28vh;
+    min-height: 28vh;
     width: 26vw;
 }
