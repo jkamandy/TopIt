@@ -18,7 +18,7 @@ function RequestQuote() {
 
   const emailIconStyles = {
     color: emailIsHovered ? '#F46969' : 'white',
-    fontSize: '61px',
+    fontSize: '55px',
     marginTop: '10px'
   };
 
@@ -26,8 +26,8 @@ function RequestQuote() {
 
         <div className={styles.requestQuoteContainer}>
           <div className={styles.requestQuote}>
-            <span className={styles.homeText} style={{fontSize:'50px'}}>REQUEST A</span>
-            <span className={styles.homeText} style={{fontSize:'50px'}}><span style={{textDecoration: 'underline', color: '#F46969'}}>QUOTE</span></span>
+            <span className={styles.homeText} style={{fontSize:'45px'}}>REQUEST A</span>
+            <span className={styles.homeText} style={{fontSize:'45px'}}><span style={{textDecoration: 'underline', color: '#F46969'}}>QUOTE</span></span>
             <a href="mailto:example@example.com" className={styles.emailIcon}>
               <FontAwesomeIcon icon={faEnvelope}
                 onMouseEnter={() => setEmailIsHovered(true)}
@@ -43,9 +43,9 @@ function RequestQuote() {
             {/* <ImageCarousel imgSources={[{logo}]} /> */}
             <div className={styles.servicesContainer}>
                 <div style={{display:'flex' ,flexDirection: 'column', marginLeft: '3vw', width:'25vw'}}>
-                  <span className={styles.homeText} style={{fontSize:'25px'}}>TIER <span className={styles.homeTextRedU} style={{fontSize:'40px'}}>1</span> - BASIC CLEAN</span>
-                  <span className={styles.homeText} style={{fontSize:'25px'}}>TIER <span className={styles.homeTextRedU} style={{fontSize:'40px'}}>2</span> - COMPREHENSIVE CLEAN</span>
-                  <span className={styles.homeText} style={{fontSize:'25px'}}>TIER <span className={styles.homeTextRedU} style={{fontSize:'40px'}}>3</span> - DEEP CLEAN</span>
+                  <span className={styles.homeText} style={{fontSize:'20px'}}>TIER <span className={styles.homeTextRedU} style={{fontSize:'35px'}}>1</span> - BASIC CLEAN</span>
+                  <span className={styles.homeText} style={{fontSize:'20px'}}>TIER <span className={styles.homeTextRedU} style={{fontSize:'35px'}}>2</span> - COMPREHENSIVE CLEAN</span>
+                  <span className={styles.homeText} style={{fontSize:'20px'}}>TIER <span className={styles.homeTextRedU} style={{fontSize:'35px'}}>3</span> - DEEP CLEAN</span>
 
                 </div>
             </div>
