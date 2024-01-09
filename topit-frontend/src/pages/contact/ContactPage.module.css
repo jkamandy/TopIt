@@ -40,3 +40,16 @@
     width: 100vw;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
+
+@media screen and (max-width: 600px) {
+    .phoneEmailContainer {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        height: 25vh;
+        column-gap: 5vw;
+    }
+    
+    
+}

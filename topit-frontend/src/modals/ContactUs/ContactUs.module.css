@@ -2,12 +2,14 @@
 .homeText {
     font-size: 80px;
     color: white;
+    width: 90vw;
     font-weight: 700;
 }
 
 .homeTextRedU {
     font-size: 80px;
     color: #F46969;
+    width: 90vw;
     text-decoration: underline;
     font-weight: 700;
 }
@@ -32,4 +34,37 @@
     /* height: 40vh; */
     width: 94vw;
     border-radius: 30px;
+}
+
+/* Styles for screens with a width between 600 and 900 pixels */
+@media screen and (max-width: 600px) {
+    .homeText {
+        font-size: 50px;
+        color: white;
+        width: 85vw;
+        font-weight: 700;
+    }
+    .homeTextRedU {
+        font-size: 50px;
+        color: #F46969;
+        text-decoration: underline;
+        font-weight: 700;
+    }
+    
+}
+
+@media screen and (max-width: 400px) {
+    .homeText {
+        font-size: 42px;
+        color: white;
+        width: 85vw;
+        font-weight: 700;
+    }
+    .homeTextRedU {
+        font-size: 42px;
+        color: #F46969;
+        text-decoration: underline;
+        font-weight: 700;
+    }
+    
 }
