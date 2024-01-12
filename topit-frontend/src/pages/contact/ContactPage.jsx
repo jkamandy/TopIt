@@ -1,4 +1,5 @@
 import Navbar from '../../components/Navbar/Navbar';
+import MyNavbar from '../../components/Navbar/Navbar';
 import ContactUs from '../../modals/ContactUs/ContactUs';
 import styles from './ContactPage.module.css';
 import React from 'react';
@@ -15,19 +16,19 @@ const ContactPage = () => {
 
     const phoneIconStyles = {
         color: phoneIsHovered ? '#F46969' : 'white',
-        fontSize: '61px',
+        fontSize: '55px',
       };
 
     const emailIconStyles = {
     color: emailIsHovered ? '#F46969' : 'white',
-    fontSize: '61px',
+    fontSize: '55px',
     // marginTop: '10px'
     // Add more styles as needed
     };
 
     return (
         <div className={styles.background}>
-        <Navbar/>
+        <MyNavbar/>
         <div className={styles.redBorder}></div>
 
         <ContactUs/>

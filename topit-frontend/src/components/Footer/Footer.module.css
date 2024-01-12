@@ -25,6 +25,10 @@
     align-items: center;
 }
 
+.logo {
+    height: 17vh;
+}
+
 /* ---- FONT STYLES ---- */
 .homeText {
     font-size: 24px;
@@ -45,3 +49,33 @@
     opacity: 40%;
 }
 
+@media screen and (max-width: 450px) {
+    .homeText {
+        font-size: 17px;
+        color: white;
+        font-weight: 700;
+    }
+    
+    .homeTextRedU {
+        font-size: 17px;
+        color: #F46969;
+        text-decoration: underline;
+        font-weight: 700;
+    }
+    .logo {
+        height: 12vh;
+    }
+    .socialContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 45vw;
+        margin-left: 3vw;
+        margin-top: 3vh;
+    }
+    .footerPrivacy {
+        font-size: 9px;
+        color: white;
+        opacity: 40%;
+    }
+  }

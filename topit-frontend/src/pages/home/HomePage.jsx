@@ -12,6 +12,7 @@ import { useEffect, useState } from 'react';
 // import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 import Navbar from '../../components/Navbar/Navbar';
+import MyNavbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import OurMission from '../../modals/OurMission/OurMission';
 import Tiers from '../../modals/Tiers/Tiers';
@@ -48,7 +49,7 @@ function HomePage() {
  
   return (
     <div className={styles.background}>
-        <Navbar/>
+        <MyNavbar/>
         <div className={styles.redBorder}></div>
 
         

@@ -16,7 +16,7 @@ function Footer() {
         fontSize: '45px',
         marginTop: '10px',
         display: 'flex',
-        width: '2vw',
+        width: '2rem',
         // justifyContent: ''
         // Add more styles as needed
     };
@@ -43,7 +43,7 @@ function Footer() {
                 
             </div>
             <div className={styles.logoContainer}>
-                <img src={logoLight} style={{height:'17vh'}}></img>
+                <img className={styles.logo} src={logoLight}></img>
             </div>
         </div>
     </div>

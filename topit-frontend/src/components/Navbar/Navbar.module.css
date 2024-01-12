@@ -24,7 +24,7 @@
 }
 
 .navbarLogo {
-    height: 17vh;
+    height: 15vh;
 }
 
 .navLinksContainer {
@@ -38,15 +38,79 @@
     column-gap: 2vw;
 }
 
+.navbarToggle {
+    display: flex;
+    /* position: absolute; */
+    justify-content: center;
+    align-items: center;
+    /* width: 25vw; */
+    /* height: 20vh; */
+    right: 100px;
+}
 
+.navbar-toggler{
+    color: white !important;
+}
 .pageLink {
-    color: white;
-    font-size: 14px;
-    text-decoration: none;
+    color: white !important;
+    font-size: 14px !important;
+    text-decoration: none !important;
 }
 
 .pageLink:hover {
-    color: #F46969;
-    text-decoration: underline;
+    color: #F46969 !important;
+    text-decoration: underline !important;
 }
+
+.pageLinkPlacement {
+    display: flex;
+    /* width: 10vw; */
+    justify-content: center;
+    align-items: center;
+}
+
+.pageLinkContainer {
+    display: flex;
+    /* width: 60vw; */
+    column-gap: 20px;
+    justify-content: flex-end;
+    align-items: center;
+}
+#basic-navbar-nav {
+    display: flex!important;
+    flex-basis: auto !important; 
+    justify-content: flex-end !important;
+}
+
+@media screen and (max-width: 1300px) {
+    .navLinksContainer {
+        display: none;
+    }
+  }
+
+@media screen and (min-width: 1300px) {
+.navbarToggle {
+    display: none;
+}
+}
+
+@media screen and (max-width: 500px) {
+    .navbarLogo {
+        height: 10vh;
+    }
+    .pageLinkPlacement {
+        display: flex;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+    }
+    .pageLinkContainer {
+
+    }
+}
+@media screen and (min-width: 576px) {
+    
+}
+
+
 

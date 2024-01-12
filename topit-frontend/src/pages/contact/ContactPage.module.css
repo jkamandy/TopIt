@@ -21,13 +21,13 @@
 
 /* ---- FONT STYLES ---- */
 .contactText {
-    font-size: 40px;
+    font-size: 30px;
     color: white;
     font-weight: 700;
 }
 
 .contactTextRedU {
-    font-size: 40px;
+    font-size: 30px;
     color: #F46969;
     text-decoration: underline;
     font-weight: 700;
