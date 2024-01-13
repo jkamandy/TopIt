@@ -68,3 +68,21 @@
     text-decoration: underline;
     font-weight: 700;
 }
+
+@media screen and (max-width: 600px) {
+    .homeText {
+        font-size: 40px;
+        color: white;
+        font-weight: 700;
+    }
+    
+    .homeTextRedU {
+        font-size: 40px;
+        color: #F46969;
+        text-decoration: underline;
+        font-weight: 700;
+    }
+    .homeImageContainer {
+        justify-content: center;
+    }
+}

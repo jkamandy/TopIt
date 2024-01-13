@@ -38,15 +38,17 @@ function RequestQuote() {
             {/* <img id='emailIcon' className={styles.emailIcon} src={emailIcon}></img> */}
           </div>
           <div className={styles.beforeAfter}>
-            <img src={camryBefore} style={{height: '50vh', marginLeft: '3vw'}}/>
-            <img src={camryAfter} style={{height: '50vh', marginLeft: '3vw'}}/>
+            <div className={styles.imagesContainer}>
+              <img src={camryBefore} className={styles.camryBefore}/>
+              <img src={camryAfter} className={styles.camryAfter} />
+            </div>
             {/* <ImageCarousel imgSources={[{logo}]} /> */}
             <div className={styles.servicesContainer}>
-                <div style={{display:'flex' ,flexDirection: 'column', marginLeft: '3vw', width:'25vw'}}>
+                <div className={styles.services}>
                   <span className={styles.homeText} style={{fontSize:'20px'}}>TIER <span className={styles.homeTextRedU} style={{fontSize:'35px'}}>1</span> - BASIC CLEAN</span>
                   <span className={styles.homeText} style={{fontSize:'20px'}}>TIER <span className={styles.homeTextRedU} style={{fontSize:'35px'}}>2</span> - COMPREHENSIVE CLEAN</span>
                   <span className={styles.homeText} style={{fontSize:'20px'}}>TIER <span className={styles.homeTextRedU} style={{fontSize:'35px'}}>3</span> - DEEP CLEAN</span>
-
+                  <br/>
                 </div>
             </div>
           </div>

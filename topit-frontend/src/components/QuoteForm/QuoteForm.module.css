@@ -10,7 +10,7 @@
     flex-direction: column;
     row-gap: 2vh;
     height: 70vh;
-    width: 50vw;
+    width: 94vw;
     justify-content: center;
     align-items: center;
     background-color: #141414;
@@ -85,3 +85,31 @@
 }
 
 /* ---------------------- */
+
+@media screen and (max-width: 600px) {
+    .subHeading {
+        font-size: 20px;
+        color: white;
+        font-weight: 700;
+    }
+    
+    .subHeadingRedU {
+        font-size: 20px;
+        color: white;
+        font-weight: 700;
+        color: #F46969;
+        text-decoration: underline;
+    }
+    .quoteFormContainer {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2vh;
+        height: 70vh;
+        width: 94vw;
+        justify-content: center;
+        align-items: center;
+        background-color: #141414;
+        border-radius: 30px;
+    }
+    
+}

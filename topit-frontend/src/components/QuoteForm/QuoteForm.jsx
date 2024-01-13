@@ -62,7 +62,7 @@ function QuoteForm() {
                             // label='User name'
                             placeholder='Name'
                             className={styles.bodyRedU}
-                            style={{height: '6vh', width:'40vw', fontSize:'20px', borderWidth:'0px', borderColor:'red'}}
+                            style={{height: '6vh', width:'88vw', fontSize:'20px', borderWidth:'0px', borderColor:'red'}}
                             onChange={(value) => handleInputChange('name', value)}
 
                         />
@@ -72,7 +72,7 @@ function QuoteForm() {
                         // label='User name'
                         placeholder='E-mail'
                         className={styles.bodyRedU}
-                        style={{height: '6vh', width:'40vw', fontSize:'20px', borderWidth:'0px', borderColor:'red'}}
+                        style={{height: '6vh', width:'88vw', fontSize:'20px', borderWidth:'0px', borderColor:'red'}}
                         onChange={(value) => handleInputChange('email', value)}
 
                     />
@@ -81,11 +81,11 @@ function QuoteForm() {
                         // label='User name'
                         placeholder='Phone number'
                         className={styles.bodyRedU}
-                        style={{height: '6vh', width:'40vw', fontSize:'20px', borderWidth:'0px', borderRadius:'5px'}}
+                        style={{height: '6vh', width:'88vw', fontSize:'20px', borderWidth:'0px', borderRadius:'5px'}}
                         onChange={(value) => handleInputChange('phoneNumber', value)}
 
                     />
-                    <textarea style={{width: '40vw', borderRadius:'5px', height:'14vh'}}
+                    <textarea style={{width: '88vw', borderRadius:'5px', height:'14vh'}}
                         name='comment'
                         className={styles.comment}
                         // label='User name'

@@ -18,15 +18,15 @@ function Tiers() {
         <div className={styles.individualTiersContainer}>
             <div className={styles.tierContainer}>
                 <div>
-                    <span className={styles.homeText} style={{fontSize:'68px'}}>TIER <span className={styles.homeTextRedU} style={{fontSize:'68px'}}>1</span></span>
+                    <span className={styles.homeText} >TIER <span className={styles.homeTextRedU} >1</span></span>
 
                 </div>
                 
                 <div><span className={styles.subHeading}><span className={styles.subHeadingRedU}>BASIC</span> CLEAN (1 HR)</span></div>
                 <br/>
-                <div><span className={styles.subHeading} style={{fontSize:'12px', fontWeight:'300'}}>STARTING AT <span className={styles.subHeadingRedU} style={{fontSize:'90px'}}>$100</span></span></div>
+                {/* <div><span className={styles.subHeading} style={{fontSize:'12px', fontWeight:'300'}}>STARTING AT <span className={styles.subHeadingRedU} style={{fontSize:'90px'}}>$100</span></span></div>
                 <br/>
-                <br/>
+                <br/> */}
 
                 <div className={styles.pricingContainer}>
                     <span className={styles.subHeading} style={{fontSize:'15px', fontWeight:'300'}}>Our Basic Clean is designed for a quick refresh of your vehicle's interior. This service includes thorough vacuuming, carpet and mat cleaning, leather cleaning, and a detailed clean for your dash, door panels, and console. It's perfect for regular maintenance to keep your car looking neat and tidy.</span>
@@ -37,12 +37,12 @@ function Tiers() {
             </div>
 
             <div className={styles.tierContainer}>
-                <span className={styles.homeText} style={{fontSize:'68px'}}>TIER <span className={styles.homeTextRedU} style={{fontSize:'68px'}}>2</span></span>
-                <span className={styles.subHeading}><span className={styles.subHeadingRedU}>COMPREHENSIVE</span> CLEAN (2 HR)</span>
+                <div><span className={styles.homeText} >TIER <span className={styles.homeTextRedU} >2</span></span></div>
+                <div><span className={styles.subHeading}><span className={styles.subHeadingRedU}>COMPREHENSIVE</span> CLEAN (2 HR)</span></div>
                 <br/>
-                <span className={styles.subHeading} style={{fontSize:'12px', fontWeight:'300'}}>STARTING AT <span className={styles.subHeadingRedU} style={{fontSize:'90px'}}>$125</span></span>
+                {/* <div><span className={styles.subHeading} style={{fontSize:'12px', fontWeight:'300'}}>STARTING AT <span className={styles.subHeadingRedU} style={{fontSize:'90px'}}>$125</span></span></div>
                 <br/>
-                <br/>
+                <br/> */}
 
                 <div className={styles.pricingContainer}>
                     <span className={styles.subHeading} style={{fontSize:'15px', fontWeight:'300'}}>Step up to our Comprehensive Clean for a deeper clean that tackles more stubborn dirt. In addition to all the services in Tier 1, we perform an intensive shampoo for your carpets, mats, and seats, leaving your vehicle spotless and smelling fresh.</span>
@@ -55,12 +55,12 @@ function Tiers() {
             </div>
             
             <div className={styles.tierContainer}>
-                <span className={styles.homeText} style={{fontSize:'68px'}}>TIER <span className={styles.homeTextRedU} style={{fontSize:'68px'}}>3</span></span>
-                <span className={styles.subHeading}><span className={styles.subHeadingRedU}>DEEP</span> CLEAN (3 HR)</span>
+                <div><span className={styles.homeText} >TIER <span className={styles.homeTextRedU} >3</span></span></div>
+                <div><span className={styles.subHeading}><span className={styles.subHeadingRedU}>DEEP</span> CLEAN (3 HR)</span></div>
                 <br/>
-                <span className={styles.subHeading} style={{fontSize:'12px', fontWeight:'300'}}>STARTING AT <span className={styles.subHeadingRedU} style={{fontSize:'90px'}}>$150</span></span>
+                {/* <div><span className={styles.subHeading} style={{fontSize:'12px', fontWeight:'300'}}>STARTING AT <span className={styles.subHeadingRedU} style={{fontSize:'90px'}}>$150</span></span></div>
                 <br/>
-                <br/>
+                <br/> */}
 
                 <div className={styles.pricingContainer}>
                     <span className={styles.subHeading} style={{fontSize:'15px', fontWeight:'300'}}>Our Deep Clean service is the ultimate package for heavily soiled vehicles. This extensive cleaning process includes all the services of Tier 1 and 2, with added attention to detail that will restore your vehicle's interior to a like-new condition. This tier is ideal for vehicles that need extra care and attention to remove deep-set dirt and stains.</span>

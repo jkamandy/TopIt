@@ -13,13 +13,13 @@
 }
 
 .subHeading {
-    font-size: 60px;
+    font-size: 25px;
     color: white;
     font-weight: 500;
 }
 
 .subHeadingRedU {
-    font-size: 60px;
+    font-size: 25px;
     color: white;
     font-weight: 500;
     color: #F46969;
@@ -67,4 +67,43 @@
     justify-content: center;
     align-items: center;
     column-gap: 0.5vw;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .service {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 10vw;
+        align-items: center;
+        column-gap: 5vw;
+        width: 100vw;
+    }
+
+    .trustedServiceTextContainer {
+        display: flex;
+        flex-direction: column;
+        /* background-color: #141414; */
+        /* column-gap: 2VW; */
+        align-items: center;
+        justify-content: center;
+        height: 35vh;
+        width: 94vw;
+        border-radius: 30px;
+    }
+
+    .subHeading {
+        font-size: 20px;
+        color: white;
+        font-weight: 500;
+    }
+
+    .subHeadingRedU {
+        font-size: 20px;
+        color: white;
+        font-weight: 500;
+        color: #F46969;
+        text-decoration: underline;
+    }
 }
