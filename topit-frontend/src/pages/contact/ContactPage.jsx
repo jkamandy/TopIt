@@ -35,7 +35,7 @@ const ContactPage = () => {
         <div className={styles.phoneEmailContainer}>
             <div className={styles.phoneContainer}>
                 <span className={styles.contactText}><span className={styles.contactTextRedU}>CALL</span> US </span>
-                <a href={`tel:${9708228693}`}>
+                <a href={`tel:${9709228693}`}>
                     <FontAwesomeIcon icon={faPhone}
                         onMouseEnter={() => setPhoneIsHovered(true)}
                         onMouseLeave={() => setPhoneIsHovered(false)}
