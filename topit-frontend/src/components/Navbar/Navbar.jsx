@@ -123,7 +123,7 @@ import logo from "../../assets/LogoNew.png"
 
 const MyNavbar = () => {
   return (
-    <Navbar expand="sm" style={{justifyContent:'center !important'}}>
+    <Navbar expand="sm" style={{justifyContent:'center', width:'100vw'}}>
       <Navbar.Brand  className={styles.navLogoContainer} href="/"><img className={styles.navbarLogo} src={logo}></img></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
