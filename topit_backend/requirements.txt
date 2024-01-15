@@ -16,8 +16,6 @@ itsdangerous==2.1.0
 Jinja2==3.0.3
 joblib==1.3.2
 MarkupSafe==2.1.0
-nltk==3.7
-numpy==1.26.0
 packaging==23.2
 pg8000==1.30.4
 psycopg2-binary==2.9.9
@@ -27,12 +25,10 @@ pytz==2023.3.post1
 readerwriterlock==1.0.9
 regex==2022.4.24
 requests==2.27.1
-scikit-learn==1.3.1
 scipy==1.11.3
 scramp==1.4.4
 six==1.16.0
 soupsieve==2.3.2.post1
-spacetime @ file:///Users/josephkamandy/Desktop/ics121/assignment2/spacetime-crawler4py-master/packages/spacetime-2.1.1-py3-none-any.whl
 sqlparse==0.4.4
 threadpoolctl==3.2.0
 tqdm==4.64.0
