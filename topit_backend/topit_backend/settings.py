@@ -67,6 +67,7 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000", #change to frontend URL
     "https://top-it-frontend.vercel.app/",
+    "https://www.topitdetailing.com/",
 ]
 
 ROOT_URLCONF = 'topit_backend.urls'
