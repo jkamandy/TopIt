@@ -62,7 +62,7 @@ function QuoteForm() {
                             // label='User name'
                             placeholder='Name'
                             className={styles.bodyRedU}
-                            style={{height: '6vh', width:'88vw', fontSize:'20px', borderWidth:'0px', borderColor:'red'}}
+                            style={{height: '6vh', width:'88vw', fontSize:'16px', borderWidth:'0px', borderColor:'red'}}
                             onChange={(value) => handleInputChange('name', value)}
 
                         />
@@ -72,7 +72,7 @@ function QuoteForm() {
                         // label='User name'
                         placeholder='E-mail'
                         className={styles.bodyRedU}
-                        style={{height: '6vh', width:'88vw', fontSize:'20px', borderWidth:'0px', borderColor:'red'}}
+                        style={{height: '6vh', width:'88vw', fontSize:'16px', borderWidth:'0px', borderColor:'red'}}
                         onChange={(value) => handleInputChange('email', value)}
 
                     />
@@ -81,7 +81,7 @@ function QuoteForm() {
                         // label='User name'
                         placeholder='Phone number'
                         className={styles.bodyRedU}
-                        style={{height: '6vh', width:'88vw', fontSize:'20px', borderWidth:'0px', borderRadius:'5px'}}
+                        style={{height: '6vh', width:'88vw', fontSize:'16px', borderWidth:'0px', borderRadius:'5px'}}
                         onChange={(value) => handleInputChange('phoneNumber', value)}
 
                     />
@@ -97,7 +97,7 @@ function QuoteForm() {
                     <div style={{width:'40vw'}}>
                     <FormButton
                         onClick={handleSubmit}
-                        style={{height: '6vh', width:'40vw', fontSize:'20px', borderWidth:'0px', borderRadius:'5px', color:'red'}}
+                        style={{height: '6vh', width:'40vw', fontSize:'16px', borderWidth:'0px', borderRadius:'5px', color:'red'}}
 
                         >Send</FormButton>
                     </div>
