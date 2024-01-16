@@ -46,7 +46,7 @@ const ContactPage = () => {
 
             <div className={styles.phoneContainer}>
                 <span className={styles.contactText}><span className={styles.contactTextRedU}>EMAIL</span> US </span>
-                <a href={`mailto:test@example.com`}>
+                <a href={`mailto:topitdetailing@gmail.com`}>
                     <FontAwesomeIcon icon={faEnvelope}
                         onMouseEnter={() => setEmailIsHovered(true)}
                         onMouseLeave={() => setEmailIsHovered(false)}

@@ -28,7 +28,7 @@ function RequestQuote() {
           <div className={styles.requestQuote}>
             <span className={styles.homeText} style={{fontSize:'45px'}}>REQUEST A</span>
             <span className={styles.homeText} style={{fontSize:'45px'}}><span style={{textDecoration: 'underline', color: '#F46969'}}>QUOTE</span></span>
-            <a href="mailto:example@example.com" className={styles.emailIcon}>
+            <a href="mailto:topitdetailing@gmail.com" className={styles.emailIcon}>
               <FontAwesomeIcon icon={faEnvelope}
                 onMouseEnter={() => setEmailIsHovered(true)}
                 onMouseLeave={() => setEmailIsHovered(false)}

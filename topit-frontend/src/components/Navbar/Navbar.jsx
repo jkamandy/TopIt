@@ -123,7 +123,7 @@ import logo from "../../assets/LogoNew.png"
 
 const MyNavbar = () => {
   return (
-    <Navbar expand="sm" style={{justifyContent:'center', width:'100vw'}}>
+    <Navbar expand="sm" >
       <Navbar.Brand  className={styles.navLogoContainer} href="/"><img className={styles.navbarLogo} src={logo}></img></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
@@ -139,7 +139,7 @@ const MyNavbar = () => {
               CONTACT
             </div>
           </Nav.Link>
-          <Nav.Link className={styles.pageLink} href='mailto:example@example.com'>
+          <Nav.Link className={styles.pageLink} href='mailto:topitdetailing@gmail.com'>
             <div className={styles.pageLinkPlacement}>
             REQUEST A QUOTE
             </div>

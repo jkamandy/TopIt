@@ -75,10 +75,10 @@
     .service {
         display: flex;
         justify-content: flex-start;
-        margin-left: 10vw;
+        margin-left: 1vw;
         align-items: center;
         column-gap: 5vw;
-        width: 96vw;
+        width: 90vw;
     }
 
     .trustedServiceTextContainer {
