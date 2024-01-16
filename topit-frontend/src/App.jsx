@@ -9,7 +9,7 @@ import { FormThemeProvider } from 'react-form-component';
 function App() {
 
   return (
-    <FormThemeProvider theme={{typography:{inputFontSize:20, labelFontSize:20}, sizes:{borderRadius:5}}}>
+    <FormThemeProvider theme={{typography:{inputFontSize:15, labelFontSize:15}, sizes:{borderRadius:5}}}>
       <Router>
         <Routes>
           <Route path="/" element={<HomePage />} />
