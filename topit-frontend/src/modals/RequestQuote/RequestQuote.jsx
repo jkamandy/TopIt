@@ -35,6 +35,8 @@ function RequestQuote() {
                 style={emailIconStyles}
               />
             </a>
+            <br></br>
+
             {/* <img id='emailIcon' className={styles.emailIcon} src={emailIcon}></img> */}
           </div>
           <div className={styles.beforeAfter}>

@@ -24,7 +24,7 @@ import QuoteForm from '../../components/QuoteForm/QuoteForm';
 
 
 function HomePage() {
-  const [imageHeight, setImageHeight] = useState(645.33);
+  const [imageHeight, setImageHeight] = useState(0);
   // const [emailIsHovered, setEmailIsHovered] = useState(false);
 
 
