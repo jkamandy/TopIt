@@ -44,7 +44,7 @@ function HomePage() {
     return () => {
       window.removeEventListener('resize', updateImageHeight);
     };
-  }, []); // Empty dependency array means this effect runs once after the initial render
+  }, [imageHeight]); // Empty dependency array means this effect runs once after the initial render
 
  
   return (
