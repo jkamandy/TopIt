@@ -2,7 +2,7 @@ import styles from './HomePage.module.css';
 import React from 'react';
 
 // import logo from "../../assets/LogoNew.png"
-import bgImage from "../../assets/bgHome.svg"
+// import bgImage from "../../assets/bgHome.svg"
 // import camryBefore from '../../assets/beforeAfter/camry/before.svg'
 // import camryAfter from '../../assets/beforeAfter/camry/after.svg'
 
@@ -11,7 +11,7 @@ import { useEffect, useState } from 'react';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
-import Navbar from '../../components/Navbar/Navbar';
+// import Navbar from '../../components/Navbar/Navbar';
 import MyNavbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import OurMission from '../../modals/OurMission/OurMission';
@@ -25,26 +25,36 @@ import QuoteForm from '../../components/QuoteForm/QuoteForm';
 
 function HomePage() {
   const [imageHeight, setImageHeight] = useState(0);
+  const [rendered, setRendered] = useState(false);
   // const [emailIsHovered, setEmailIsHovered] = useState(false);
 
+  // useEffect(() => {
+  //   setRendered(true);
 
-  useEffect(() => {
-    const updateImageHeight = () => {
-      const currentImageHeight = document.getElementById('bgImageHome').height;
-      setImageHeight(currentImageHeight);
-    };
+  //   return () => {
 
-    // Initial update
-    updateImageHeight();
+  //   }
+  // }, []); // empty dependency array
 
+  // useEffect(() => {
+    // const updateImageHeight = () => {
+    //   const currentImageHeight = document.getElementById('bgImageHome').height;
+    //   setImageHeight(currentImageHeight);
+    // };
+
+    // // Initial update
+    // updateImageHeight();
+
+    // const currentImageHeight = document.getElementById('bgImageHome').height;
+    // setImageHeight(currentImageHeight);
     // Event listener for window resize
-    window.addEventListener('resize', updateImageHeight);
+    // window.addEventListener('resize', updateImageHeight);
 
     // Cleanup the event listener on component unmount
-    return () => {
-      window.removeEventListener('resize', updateImageHeight);
-    };
-  }, [imageHeight]); // Empty dependency array means this effect runs once after the initial render
+    // return () => {
+    //   // window.removeEventListener('resize', updateImageHeight);
+    // };
+  // }, []); // Empty dependency array means this effect runs once after the initial render
 
  
   return (
@@ -54,11 +64,11 @@ function HomePage() {
 
         
         <div className={styles.homeImageContainer}>
-          <div className={styles.homeTextContainer} style={{height: `${imageHeight}px`}}>
+          <div className={styles.homeTextContainer}>
             <span className={styles.homeText}>WE STAY</span>
             <span className={styles.homeText}>ON <span style={{textDecoration: 'underline', color: '#F46969'}}>TOP</span></span>
           </div>
-          <img id='bgImageHome' className={styles.bgImageHome} src={bgImage}></img>
+          {/* <img id='bgImageHome' className={styles.bgImageHome} src={bgImage}></img> */}
         </div> 
 
         <div className={styles.redBorder}></div>
